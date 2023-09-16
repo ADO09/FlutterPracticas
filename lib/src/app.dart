@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:practicas_flutter/src/page1.dart';
-import 'package:practicas_flutter/src/page2.dart';
-import 'package:practicas_flutter/src/page3.dart';
+import 'package:practica_2/src/page1.dart';
+import 'package:practica_2/src/page2.dart';
+import 'package:practica_2/src/page3.dart';
 
 
 
