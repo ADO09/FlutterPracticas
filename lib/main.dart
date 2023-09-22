@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
-
+import 'package:practicas_flutter/src/tabs_page.dart';
 void main() {
-  runApp(const MainApp());
+  runApp( MainApp());
 }
 
 class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+  
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
+    return  MaterialApp(
+
+      debugShowCheckedModeBanner: false,
+      title: "Practica 06",
+      home: TabsPage(),
+     
     );
   }
 }
