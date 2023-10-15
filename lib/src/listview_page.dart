@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+
+
 class ListaPage extends StatelessWidget {
 
   final List<String> _clasesPokemon = [
