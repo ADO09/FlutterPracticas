@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:practicas_flutter/src/crud_page.dart';
+
+import 'package:practicas_flutter/src/slivers_page.dart';
 
 
 void main() =>  runApp( MainApp());
@@ -11,7 +12,7 @@ class MainApp extends StatelessWidget {
     return  MaterialApp(
     debugShowCheckedModeBanner: false,
     title: "Material App",
-     home: CrudPage(),
+     home: SliverPage(),
     );
   }
 }
